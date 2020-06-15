@@ -8,7 +8,8 @@
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev --hot",
-    "build": "webpack --config build-utils/webpack.config.js --env.env=prod"
+    "build": "webpack --config build-utils/webpack.config.js --env.env=prod",
+    "format": "prettier '**/*.{js,jsx,json,scss,css}' --write"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
