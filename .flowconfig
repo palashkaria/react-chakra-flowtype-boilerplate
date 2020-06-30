@@ -16,4 +16,4 @@ suppress_type=$FixMe
 [strict]
 
 [version]
-^0.127.0
+^0.128.0
